@@ -1,0 +1,32 @@
+{
+  "name": "@apiverve/domainavailability",
+  "version": "1.0.0",
+  "description": "Domain Availability Checker is a simple tool for checking the availability of a domain. It returns if the domain is available or not.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiverve/domainavailability-API.git"
+  },
+  "keywords": [
+    "domain availability checker"," domain availability checker api"," domain availability checker tool"," domain availability checker software"," domain availability checker service"," domain availability checker library"," domain availability checker sdk"," domain availability checker code"," domain availability checker script"," domain availability checker program"," domain availability checker application"," domain availability checker app"," domain availability checker utility"," domain availability checker helper"," domain availability checker helper tool"," domain availability checker helper software"," domain availability checker helper service"," domain availability checker helper library"," domain availability checker helper sdk"," domain availability checker helper code"," domain availability checker helper script"," domain availability checker helper program"," domain availability checker helper application"," domain availability checker helper app"," domain availability checker helper utility"," domain availability checker helper"
+  ],
+  "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apiverve/domainavailability-API/issues"
+  },
+  "homepage": "https://github.com/apiverve/domainavailability-API",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "chai": "^3.4.1",
+    "dotenv": "^2.0.0"
+  },
+  "dependencies": {
+    "node-fetch": "3.3.2",
+    "promise": "^7.1.1",
+    "request": "^2.69.0"
+  }
+}
