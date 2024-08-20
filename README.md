@@ -71,9 +71,13 @@ api.execute(query, function (error, data) {
   "status": "ok",
   "error": null,
   "data": {
-    "available": true,
-    "domain": "myspace.com"
-  }
+    "domain": "myspace.com",
+    "available": false,
+    "owner": {
+      "registrar": "GoDaddy.com, LLC"
+    }
+  },
+  "code": 200
 }
 ```
 
